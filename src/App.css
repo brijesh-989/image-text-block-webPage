@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.blocks-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Display blocks in a column */
+  align-items: center;
+
+}
+
+.block {
+  border: 1.5px solid violet;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  background-color:white;
+  cursor: move;
+  font-size: 12px;
+}
+
+.content {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.image{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 1em;
+}
+.file > input[type='file'] {
+  display: none
+}
+
+
+.file {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file > input[type='file'] {
+  display: none
+}
+
